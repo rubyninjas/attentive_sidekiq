@@ -10,4 +10,8 @@ Gem::Specification.new do |s|
   s.homepage    =
     'http://rubygems.org/gems/attentive_sidekiq'
   s.license       = 'MIT'
+
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'sidekiq', '~> 4.2', '>= 4.2'
+  s.add_development_dependency 'minitest', '~> 5.7', '>= 5.7.0'
 end
